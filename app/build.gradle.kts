@@ -37,6 +37,7 @@ android {
        // jvmTarget = "18"
         jvmTarget = "17"
     }
+
 }
 
 dependencies {
@@ -74,4 +75,6 @@ dependencies {
 
     androidTestImplementation("com.google.dagger:hilt-android-testing:2.44")
     kaptAndroidTest("com.google.dagger:hilt-android-compiler:2.44")
+
+    testImplementation("com.squareup.okhttp3:mockwebserver:4.9.1")
 }
